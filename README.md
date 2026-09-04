@@ -8,7 +8,7 @@ Forked from [markterence/discord-quest-completer](https://github.com/markterence
 
 ## 📥 Downloads
 
-Pre-built packages are available on the [Releases](https://github.com/thuan2802826/discord-quest-completer/releases) page:
+Pre-built packages are available on the [Releases](https://github.com/thuan2802826/discord-quest-linux/releases) page:
 
 - **Debian / Ubuntu / Linux Mint**: Download `.deb` package and install:
   ```bash
