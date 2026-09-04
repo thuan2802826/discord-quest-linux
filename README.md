@@ -74,6 +74,23 @@ pnpm run tauri build
 
 ---
 
+## ❓ Frequently Asked Questions (FAQ)
+
+### How does Discord detect games on Linux?
+Discord for Linux scans active system processes for matching executable names in its detectable games list. This tool creates an idle native Linux process matching the required game name, allowing Discord to detect the game without Wine or full game files.
+
+### Do I need Wine, Proton, or .NET Runtime on Linux?
+No. Everything runs natively on Linux. The dummy game runner is a minimal native C binary (~5 KB) with zero external dependencies.
+
+### Which Linux distributions are supported?
+Any modern Linux distribution, including Ubuntu, Debian, Linux Mint, Fedora, Arch Linux, and openSUSE. Pre-built `.deb`, `.rpm`, AppImage, and portable standalone packages are available.
+
+### Is it safe to complete Discord quests this way?
+Yes. The app does not inject code into Discord, inspect memory, or modify system files. It merely runs an idle background process named after the game.
+
+---
+
 ## 📄 License & Credits
 - Original project by [markterence](https://github.com/markterence/discord-quest-completer).
 - Licensed under the [MIT License](LICENSE).
+
