@@ -93,12 +93,12 @@ Yes. The app does not inject code into Discord, inspect memory, or modify system
 
 ---
 
-## ⚠️ Disclaimer / Tuyên bố miễn trừ trách nhiệm
+## ⚠️ Disclaimer
 
-- **Mục đích học tập và thử nghiệm / Educational Use Only**: This software is intended solely for educational, research, and testing purposes.
-- **Tuân thủ điều khoản / Terms of Service**: Users are responsible for complying with Discord's Terms of Service and third-party game developer policies.
-- **Miễn trừ trách nhiệm / Limitation of Liability**: The authors and maintainers are not responsible for any account suspensions, bans, data loss, or other consequences that may arise from using this tool. Use at your own discretion and risk.
-- **Thương hiệu / Trademarks**: Discord and all game titles mentioned are trademarks of their respective owners. This project is open-source, non-commercial, and not affiliated with Discord Inc.
+- **Educational & Testing Purposes Only**: This tool is developed strictly for educational, research, and testing purposes.
+- **Terms of Service**: Users are responsible for complying with Discord's Terms of Service and third-party game developer agreements.
+- **Limitation of Liability**: The authors and maintainers are not responsible for any account suspensions, bans, data loss, or other consequences that may arise from using this software. Use at your own discretion and risk.
+- **Trademarks**: Discord and all game titles mentioned are registered trademarks of their respective owners. This open-source project is non-commercial and not affiliated with, sponsored by, or endorsed by Discord Inc.
 
 ---
 
