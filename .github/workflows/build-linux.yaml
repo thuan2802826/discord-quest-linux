@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - feat/linux-support-and-perf-fix
+      - main
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build-linux:
@@ -37,15 +41,28 @@ jobs:
       - name: Build 5KB Linux Dummy Runner
         run: pnpm run sync:runner
 
-      - name: Build Tauri App (Deb & Binary)
+      - name: Build Tauri App (All Linux Bundles)
         uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload Linux Artifacts
+      - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: discord-quest-completer-linux-x64
+          name: discord-quest-completer-linux-all
           path: |
             src-tauri/target/release/bundle/deb/*.deb
+            src-tauri/target/release/bundle/rpm/*.rpm
+            src-tauri/target/release/bundle/appimage/*.AppImage
             src-tauri/target/release/discord-quest-completer
+
+      - name: Update GitHub Release Assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v25.10.7-linux
+          files: |
+            src-tauri/target/release/bundle/deb/*.deb
+            src-tauri/target/release/bundle/rpm/*.rpm
+            src-tauri/target/release/bundle/appimage/*.AppImage
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
