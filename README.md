@@ -4,6 +4,9 @@ A native Linux desktop application to complete Discord Quests without installing
 
 Forked from [markterence/discord-quest-completer](https://github.com/markterence/discord-quest-completer) with native Linux support, ultra-lightweight dummy runner, and performance improvements.
 
+> [!IMPORTANT]
+> **Disclaimer**: This tool is developed strictly for **educational and testing/experimental purposes only**. Please respect Discord's Terms of Service and game developers' policies. Use at your own risk.
+
 ---
 
 ## 📥 Downloads
@@ -87,6 +90,15 @@ Any modern Linux distribution, including Ubuntu, Debian, Linux Mint, Fedora, Arc
 
 ### Is it safe to complete Discord quests this way?
 Yes. The app does not inject code into Discord, inspect memory, or modify system files. It merely runs an idle background process named after the game.
+
+---
+
+## ⚠️ Disclaimer / Tuyên bố miễn trừ trách nhiệm
+
+- **Mục đích học tập và thử nghiệm / Educational Use Only**: This software is intended solely for educational, research, and testing purposes.
+- **Tuân thủ điều khoản / Terms of Service**: Users are responsible for complying with Discord's Terms of Service and third-party game developer policies.
+- **Miễn trừ trách nhiệm / Limitation of Liability**: The authors and maintainers are not responsible for any account suspensions, bans, data loss, or other consequences that may arise from using this tool. Use at your own discretion and risk.
+- **Thương hiệu / Trademarks**: Discord and all game titles mentioned are trademarks of their respective owners. This project is open-source, non-commercial, and not affiliated with Discord Inc.
 
 ---
 
